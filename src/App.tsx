@@ -7,7 +7,7 @@ import wardrobeShot from './assets/wardrobe-screen-revised2.png'
 
 // Import BOTH creator images
 import creatorShotMobile from './assets/creators-screen.png'; // Mobile version
-import creatorShotDesktop from './assets/creators-screen-revised2.png'; // Desktop version
+import creatorShotDesktop from './assets/creators-screen-desktop-revised1.png'; // Desktop version
 
 
 
