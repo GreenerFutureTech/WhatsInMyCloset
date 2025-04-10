@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/WhatsInMyCloset",
+  base: "/WhatsInMyCloset/",
   server: { // <--- Add this
     host: true // '0.0.0.0' or true will listen on all addresses, including LAN and public addresses
     // Or specify a specific IP:
