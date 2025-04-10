@@ -6,7 +6,7 @@ import socialShot from './assets/social-screen-revised2.png'
 import wardrobeShot from './assets/wardrobe-screen-revised2.png'
 
 // Import BOTH creator images
-import creatorShotMobile from './assets/creators-screen.png'; // Mobile version
+import creatorShotMobile from './assets/creators-screen-mobile-revised1.png'; // Mobile version
 import creatorShotDesktop from './assets/creators-screen-desktop-revised1.png'; // Desktop version
 
 
