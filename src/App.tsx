@@ -4,7 +4,10 @@ import featureShot from './assets/features.png'
 import outfitShot from './assets/flow-screen-revised1.png'
 import socialShot from './assets/social-screen-revised2.png'
 import wardrobeShot from './assets/wardrobe-screen-revised2.png'
-import creatorShot from './assets/creators-screen-revised1.png'
+
+// Import BOTH creator images
+import creatorShotMobile from './assets/creators-screen.png'; // Mobile version
+import creatorShotDesktop from './assets/creators-screen-revised2.png'; // Desktop version
 
 
 
@@ -38,7 +41,15 @@ function App() {
 
       <div className="content-block">
           <div className="image-section">
-            <img src={creatorShot} alt="Developer Info" />
+          <picture>
+               {/* Source for Desktop screens (matches your CSS media query) */}
+               <source media="(min-width: 991px)" srcSet={creatorShotDesktop} />
+
+               {/* Default/Mobile Image (also the fallback) */}
+               {/* The browser uses this if the above media query doesn't match */}
+               {/* The <img> tag is REQUIRED inside <picture> */}
+               <img src={creatorShotMobile} alt="Developer Info" />
+           </picture>
           </div>
       </div>
 
